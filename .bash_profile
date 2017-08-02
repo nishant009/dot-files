@@ -90,3 +90,21 @@ alias dcbuild='docker-compose build'
 alias dcrun='docker-compose up'
 alias dcrund='docker-compose up -d'
 
+# Anaconda commands
+alias clist="conda list"
+alias cinst="conda install"
+alias crem="conda remove"
+alias cup="conda update"
+alias cupa="conda update --all"
+alias csrch="conda search"
+alias ccenv="conda create -n"
+alias ccenvf="conda create -f"
+alias cenvex="conda env export"
+alias cenvl="conda env list"
+alias cenvrem="conda env remove -n"
+alias sac="source activate"
+alias sdeac="source deactivate"
+
+# Jupyter commands
+alias jstart="jupyter notebook"
+alias jconv="jupyter nbconvert --to"
