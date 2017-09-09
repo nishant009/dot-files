@@ -71,8 +71,6 @@ alias ntst='npm run test'
 alias nlnt='npm run lint'
 
 # docker commands
-alias dhost="bash --login '/Applications/Docker/Docker Quickstart Terminal.app/Contents/Resources/Scripts/start.sh'"
-alias dm='docker-machine ip'
 alias dimg='docker images'
 alias dps='docker ps -a'
 alias dstop='docker stop'
