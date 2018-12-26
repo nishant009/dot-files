@@ -1,5 +1,5 @@
 export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PYENV_ROOT/bin:$PATH"
 
 # include .bashrc if it exists
 if [ -f $HOME/.bashrc ]; then
@@ -85,23 +85,34 @@ alias dcrun='docker-compose up'
 alias dcrund='docker-compose up -d'
 
 # Anaconda commands
-alias clist="conda list"
-alias cinst="conda install"
-alias crem="conda remove"
-alias cup="conda update"
-alias cupa="conda update --all"
-alias csrch="conda search"
-alias ccenv="conda create -n"
-alias ccenvf="conda create -f"
-alias cenvex="conda env export"
-alias cenvl="conda env list"
-alias cenvrem="conda env remove -n"
+alias colist="conda list"
+alias coinst="conda install"
+alias corem="conda remove"
+alias coup="conda update"
+alias coupa="conda update --all"
+alias cosrch="conda search"
+alias cocenv="conda create -n"
+alias cocenvf="conda create -f"
+alias coenvex="conda env export"
+alias coenvl="conda env list"
+alias coenvrem="conda env remove -n"
 alias sac="source activate"
 alias sdeac="source deactivate"
 
 # Jupyter commands
 alias jstart="jupyter notebook"
 alias jconv="jupyter nbconvert --to"
+
+# Rust commands
+alias cnew="cargo new"
+alias cbuild="cargo build"
+alias cbuildr="cargo build --release"
+alias crun="cargo run"
+alias ccheck="cargo check"
+alias cinst="cargo install"
+alias cupdate="cargo update"
+alias cdoc="cargo doc --open"
+alias rup="rustup"
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
