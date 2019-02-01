@@ -50,8 +50,10 @@ alias gdiff="git diff"
 alias push="git push origin HEAD"
 alias pushf="git push -f origin HEAD"
 alias pull_master="git fetch origin && git checkout master && git pull --ff-only origin master"
+alias reb_master="git pull --rebase origin master"
 alias merge="git merge --no-ff --no-commit"
 alias clean="git clean -f"
+alias ghub="github ."
 
 # utility aliases
 alias bckup="~/Scripts/backup.sh ~/Backup filenames"
